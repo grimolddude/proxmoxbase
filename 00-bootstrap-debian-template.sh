@@ -19,7 +19,7 @@ echo "PermitRootLogin no" >> /etc/ssh/sshd_config
 service ssh restart
 
 # Add user 'grim' to sudoers file
-echo "dc ALL=(ALL:ALL) ALL" >> /etc/sudoers
+echo "grim ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 echo "Setup complete. Make sure to test the SSH login with the user account before logging out as root."
 
