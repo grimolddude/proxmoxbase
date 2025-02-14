@@ -1,5 +1,5 @@
 ---
-- name: Install network tools on Debian
+- name: Install network tools on Ubuntu
   hosts: localhost
   become: yes
 
